@@ -1349,7 +1349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ed2f5db84b08e4bbf6b6ec7a818bcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
-  target: {fileID: 0}
+  target: {fileID: 349323041}
   offset: {x: 0, y: 12, z: -9}
   smooth: 5
 --- !u!1001 &349323037
@@ -1459,6 +1459,11 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!4 &349323041 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3933c683387331240a16ecff3a66bf64, type: 3}
+  m_PrefabInstance: {fileID: 349323037}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &401939711
 GameObject:
   m_ObjectHideFlags: 0
